@@ -1,0 +1,50 @@
+.service-section, .feature-section, .partner-section	{
+	padding: 100px 0;
+}
+.service, .feature{
+    padding: 50px;
+}
+.service-section h1{
+    font-size: 29px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+h6{
+    color: #5f5fff;
+    text-transform: capitalize;
+}
+h3{
+    font-size: 22px;
+    margin: 20px 0;
+}
+p{
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    color: #695b5b;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.navbar-nav .nav-link:hover{
+	color:#007bff;
+}
+
+.partner-section h3{}
+.partner-section h1{
+    font-size: 60px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+.partner-section p{
+    line-height: 1.7;
+}
+.partner-section a{text-transform: capitalize;padding: 10px 20px;font-size: 12px;}
+
+@media (max-width: 767px) {
+	.partner-section h1 {font-size: 50px}
+}
